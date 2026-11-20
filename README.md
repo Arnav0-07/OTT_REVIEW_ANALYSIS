@@ -102,3 +102,6 @@ After completing this project, you will understand:
 ## Conclusion
 
 The OTT Review Analysis System is a beginner-friendly project that helps analyze OTT content using ratings and review-related data. It provides useful insights into popular movies and web series available across different streaming platforms while improving practical Python programming skills.
+
+## AUTHOR
+ARNAV MISHRA
