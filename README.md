@@ -1,70 +1,74 @@
-# OTT Review Analysis
+OTT Review Analysis System
+Project Overview
+The OTT Review Analysis System is a simple Python-based project that analyzes OTT platform content and reviews to help users identify highly rated movies and web series. The system reads data from a dataset and provides recommendations based on ratings, genres, and OTT platforms.
 
-## Overview
+This project is designed for beginners to understand Python programming concepts such as file handling, CSV processing, functions, loops, conditional statements, and data analysis.
 
-OTT Review Analysis is a simple project that analyzes user reviews from OTT streaming platforms such as Netflix, Amazon Prime Video, and Disney+ Hotstar. The project helps understand customer opinions by analyzing ratings and review text.
-
-## Objectives
-
-- Collect OTT platform reviews
-- Analyze user ratings
-- Identify positive and negative reviews
-- Find common issues mentioned by users
-- Generate basic insights
-
-## Tools Used
-
-- Python
-- Pandas
-- Matplotlib
-- NLTK
-
-## Dataset
-
+Features
+Analyze ratings of OTT content
+View top-rated movies and web series
+Filter content by genre
+Filter content by OTT platform
+Display the highest-rated titles
+Interactive menu-driven interface
+Technologies Used
+Python
+CSV Module
+Dataset Information
 The dataset contains:
 
-- Platform Name
-- User Rating
-- Review Text
-- Review Date
+Title
+OTT Platform
+Genre
+Rating
+User Score
+Description
+Analysis Functions
+Best Rated Content Analysis
+Genre-wise Analysis
+Platform-wise Analysis
+Top 5 Content Analysis
+Complete Dataset Review
+Supported OTT Platforms
+Netflix
+Prime Video
+JioHotstar
+SonyLIV
+Project Structure
+OTT-Review-Analysis/
+│
+├── ott_recommendation.py
+├── ott_dataset.csv
+└── README.md
+How to Run
+Step 1: Install Python
+Ensure Python 3.x is installed on your system.
 
-## Project Steps
+Step 2: Place Dataset File
+Keep ott_dataset.csv in the same folder as the Python file.
 
-1. Collect review data
-2. Clean the dataset
-3. Process review text
-4. Perform sentiment analysis
-5. Visualize results
-6. Generate insights
+Step 3: Execute the Program
+python ott_recommendation.py
+Expected Output
+Highest-rated OTT content
+Genre-based content analysis
+Platform-specific recommendations
+Top 5 rated titles
+Complete content list
+Learning Outcomes
+After completing this project, you will understand:
 
-## Sample Insights
-
-- Most users give positive ratings.
-- Content quality is frequently appreciated.
-- Buffering and subscription cost are common complaints.
-- User experience affects overall ratings.
-
-## How to Run
-
-```bash
-pip install -r requirements.txt
-python app.py
-```
-
-## Expected Output
-
-- Sentiment Analysis Report
-- Rating Distribution Chart
-- Word Cloud
-- Review Summary
-
-## Future Improvements
-
-- Real-time review analysis
-- Multi-language support
-- Interactive dashboard
-- Machine learning models
-
-## Conclusion
-
-This project provides a basic analysis of OTT platform reviews to understand customer satisfaction and identify areas for improvement.
+Python Programming Basics
+CSV File Handling
+Data Processing
+Data Filtering
+Sorting Techniques
+Menu-Driven Applications
+Future Enhancements
+Sentiment Analysis of Reviews
+Review-Based Recommendations
+Graphical User Interface (GUI)
+Interactive Dashboard
+Machine Learning-Based Analysis
+Conclusion
+The OTT Review Analysis System is a beginner-friendly project that helps analyze OTT content using ratings and review-related data. It provides useful insights into popular movies and web series available across different streaming platforms while improving practical Python programming skills.
